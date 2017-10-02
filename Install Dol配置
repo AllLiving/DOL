@@ -44,7 +44,7 @@ sudo ../configure --disable-async-updates
 
 cd ~/systemc - 2.3.1 & make install
 
-
+<img src="C:\Users\Cedar\OneDrive\嵌入式\systemc.bmp" width=315 height=168 />
 
 make，何谓make，make就是编译，就是将已有的信息转化为二进制信息。install则是安装，将软件安装到当前的计算机上。
 
