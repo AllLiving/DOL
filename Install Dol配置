@@ -54,9 +54,9 @@ make，何谓make，make就是编译，就是将已有的信息转化为二进�
 
 修改build_zip.xml文件 找到下面这段话，就是说上面编译的systemc位置在哪里，
 
-<property name="systemc.inc" value="YYY/include"/> 
+> \<property name="systemc.inc" value="YYY/include"/> 
 
-<property name="systemc.lib" value="YYY/lib-linux/libsystemc.a"/>
+> \<property name="systemc.lib" value="YYY/lib-linux/libsystemc.a"/>
 
 YYY表示之前systemc的路径，这里修改文件关联信息，是为了使得编译的时候，关联文件可以互相查询到，事实上，Linux很多的编译过程都是不使用C语言的头文件包含机制的，某些文件中的函数会被默认地编译，这里就是使用了文件关联的机制。
 
